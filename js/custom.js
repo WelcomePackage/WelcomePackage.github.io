@@ -3,10 +3,12 @@
 var button_clicked = false;
 function toggleNav() {
     if (!button_clicked) {
-        document.getElementById("mySidenav").style.width = "100%";
+        $("#mySidenav a").css('opacity', '1');
+        $("#mySidenav").css('width', '100% ');
     }
     if (button_clicked) {
-        document.getElementById("mySidenav").style.width = "0";
+        $("#mySidenav a").css('opacity', '0');
+        $("#mySidenav").css('width', '0');
     }
     button_clicked = !button_clicked;
 }
