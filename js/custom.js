@@ -3,8 +3,8 @@
 var button_clicked = false;
 function toggleNav() {
     if (!button_clicked) {
-        $("#mySidenav a").css('opacity', '1');
         $("#mySidenav").css('width', '100% ');
+        $("#mySidenav a").css('opacity', '1');
     }
     if (button_clicked) {
         $("#mySidenav a").css('opacity', '0');
