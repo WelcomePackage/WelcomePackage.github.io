@@ -1,5 +1,7 @@
 /* Add custom CSS here */
 /* The side navigation menu */
+*{ padding: 0px;margin: 0px;}
+ul li{ list-style: none}
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -27,7 +29,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
-    color: #568bfa;
+    color: #a4c0fa;
 }
 
 /* Position and style the close button (top right corner) */
@@ -45,8 +47,7 @@
     padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+
+.sub-nav {
+    display: none;
 }
