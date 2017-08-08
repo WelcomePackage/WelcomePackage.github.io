@@ -190,10 +190,13 @@ ul li {
     width: 80%;
     height: auto;
     margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    padding: 30px 20px;
 }
 .card  h4{
     color: #b4b4b4;
 }
 .card .card-img {
     height: 200px;
+    border-bottom: 1px solid #e8e8e8;
 }
