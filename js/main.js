@@ -15,6 +15,7 @@ function toggleNav(x) {
     button_clicked = !button_clicked;
 }
 /************************************************************************/
+
 /************************************************************************/
 $(document).ready(function () {
     $("#mySidenav a").click(function () {
@@ -22,5 +23,8 @@ $(document).ready(function () {
         $("#mySidenav a ul").removeClass("active-sub-nav");
         this.classList.toggle("active-sub-nav");
     });
+    $('.gotop').click(function () {
+        $('html,body').animatescroll();
 
+    });
 });

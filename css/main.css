@@ -200,3 +200,32 @@ ul li {
     height: 200px;
     border-bottom: 1px solid #e8e8e8;
 }
+
+/*****************************************************************************/
+
+
+.gotop {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background: #306a9c;
+    border-radius: 50%;
+    /*opacity:0;*/
+    border: 2px solid #5c9dd5;
+    z-index: 999;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}.gotop  span {
+     padding-top: 10px;
+
+ }.gotop:hover  span {
+     animation: gotopeffect 800ms infinite;
+  }
+ @keyframes gotopeffect {
+    from {padding-top: 5px;}
+    to {padding-top: 10px;}
+}
