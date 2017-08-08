@@ -4,12 +4,14 @@
 }
 
 body {
+    padding-top: 60px;
     font-family: yekan;
 }
 
 ul li {
     list-style: none;
 }
+
 /*****************************************************************************/
 @media only screen and (max-width: 768px) {
 
@@ -127,7 +129,7 @@ ul li {
         padding: 20px 20px 8px 32px;
         text-decoration: none;
         font-size: 20px;
-        color: #ab9df8;
+        color: #3275ff;
         display: block;
         transition: 0.3s;
     }
@@ -155,13 +157,17 @@ ul li {
 }
 
 .sub-nav a {
-    color: #654ceb;
+    color: #ab9df8;
 }
 
     .sub-nav a:hover {
-        color: #3275ff;
+        color: #654ceb ;
     }
 
+/*****************************************************************************/
+.media-body p{
+    padding-left: 20px;
+}
 /*****************************************************************************/
 .panel {
     border-radius: 0 !important;
@@ -169,6 +175,7 @@ ul li {
 .panel-group .panel {
     border-radius: 0 !important;
 }
+
 /*****************************************************************************/
 .person-intro h4{
     color: #b4b4b4;
