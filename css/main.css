@@ -185,5 +185,15 @@ ul li {
     padding: 10px 10px;
     border-bottom: 1px solid #dfdfdf
 }
-
-
+/*****************************************************************************/
+.card {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.card  h4{
+    color: #b4b4b4;
+}
+.card .card-img {
+    height: 200px;
+}
