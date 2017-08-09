@@ -91,6 +91,13 @@ $(document).ready(function () {
         }
         $('.quick-access-icon').toggleClass('actvie-quick-access');
         quickAccessOpened = !quickAccessOpened;
+
+        $($(this).attr('data-toggle'))
+            .animatescroll({
+                padding: 50,
+                easing: 'easeInOutBack',
+                scrollSpeed: 2000
+    });
     });
 });
 
