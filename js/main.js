@@ -59,4 +59,8 @@ $(document).ready(function () {
         $(this).toggleClass('actvie-quick-access');
         quickAccessOpened = !quickAccessOpened;
     });
+
+    $('quick-access ul li a').click(function() {
+        $('.quick-access-icon').click();
+    });
 });
