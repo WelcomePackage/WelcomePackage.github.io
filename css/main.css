@@ -283,3 +283,20 @@ a[data-toggle="modal"] {
             color: #e4e4e4;
         }
 /*****************************************************************************************/
+.link-out {
+    padding-right: 30px;
+
+}
+
+ul.link-out li i {
+    padding-left: 5px;
+    font-size: 10px
+}
+/*****************************************************************************************/
+.footer {
+    width: 100%;
+    min-height: 200px;
+    background: #494949;
+    border-top: 5px solid #1565c0;
+    padding: 10px;
+}
