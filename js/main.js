@@ -18,6 +18,14 @@ function toggleNav(x) {
 
 /************************************************************************/
 $(document).ready(function () {
+    $(window).scroll(function () {
+        var offset = $(window).scrollTop();
+        if (offset > 250) {
+            $('.gotop').fadeIn();
+        } else {
+            $('.gotop').fadeOut();
+        }
+    });
     $("#mySidenav a").click(function () {
         //debugger
         $("#mySidenav a ul").removeClass("active-sub-nav");
@@ -40,17 +48,17 @@ $(document).ready(function () {
     
     $('.quick-access-icon').click(function () {
         var windowWidth = $(window).width();
-        if (windowWidth <= 768) {
-            quickAccessWidth = '80%';
+        if (windowWidth < 768) {
+            quickAccessWidth = '70%';
         }
-        else if (windowWidth > 768 && windowWidth <= 992) {
-            quickAccessWidth = '60%';
-        }
-        else if (windowWidth > 992 && windowWidth <= 1200) {
+        else if (windowWidth >= 768 && windowWidth <= 992) {
             quickAccessWidth = '50%';
         }
-        else if (windowWidth > 1200) {
+        else if (windowWidth > 992 && windowWidth <= 1200) {
             quickAccessWidth = '40%';
+        }
+        else if (windowWidth > 1200) {
+            quickAccessWidth = '15%';
         }
         if (!quickAccessOpened) {
             $('.quick-access').animate({
@@ -85,3 +93,5 @@ $(document).ready(function () {
         quickAccessOpened = !quickAccessOpened;
     });
 });
+
+/**********************************************************************************/
