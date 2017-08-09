@@ -60,7 +60,20 @@ $(document).ready(function () {
         quickAccessOpened = !quickAccessOpened;
     });
 
-    $('quick-access ul li a').click(function() {
-        $('.quick-access-icon').click();
+    $('.quick-access-link').click(function () {
+        if (!quickAccessOpened) {
+            $('.quick-access').animate({
+                'width': quickAccessWidth,
+                'padding': '20px'
+            });
+
+        } else {
+            $('.quick-access').animate({
+                'width': '0',
+                'padding': '0'
+            });
+        }
+        $('.quick-access-icon').toggleClass('actvie-quick-access');
+        quickAccessOpened = !quickAccessOpened;
     });
 });
