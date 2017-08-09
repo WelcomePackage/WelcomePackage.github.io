@@ -269,7 +269,9 @@ a[data-toggle="modal"] {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-
+.quick-access-link {
+    cursor: pointer;
+}
 .quick-access ul li {
     padding-bottom: 10px;
     padding-right: 10px;
