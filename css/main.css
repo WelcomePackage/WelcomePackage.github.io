@@ -227,6 +227,7 @@ a[data-toggle="modal"] {
     text-align: center;
     color: white;
     font-size: 18px;
+    display: none;
 }
 
     .gotop span {
