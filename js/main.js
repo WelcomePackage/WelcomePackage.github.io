@@ -27,9 +27,14 @@ $(document).ready(function () {
         $('html,body').animatescroll();
 
     });
-    $(function() {
-        $('.tooltips').tooltip();
-    });
+    //$(function() {
+    //    $('.tooltips').tooltip();
+    //});
+    $('.tooltips')
+        .mouseenter(function() {
+            $('.tooltips').tooltip();
+        });
+
     var quickAccessWidth;
     var quickAccessOpened = false;
     

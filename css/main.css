@@ -74,6 +74,7 @@ ul li {
 .navbar-default {
     background: #1565c0;
     border-radius: 0;
+    border: none !important;
 }
 
 /*****************************************************************************/
@@ -165,6 +166,10 @@ ul li {
     }
 
 /*****************************************************************************/
+a[data-toggle="modal"] {
+    cursor: pointer
+}
+/*****************************************************************************/
 .media-body p {
     padding-left: 20px;
 }
@@ -240,6 +245,7 @@ ul li {
     left: 0px;
     box-shadow: 5px 5px 20px #dbdbdb;
     border-radius: 0 0 5px 0;
+    z-index: 1;
 }
 
     .quick-access .quick-access-icon {
