@@ -3,7 +3,8 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#1565c0" />
 
     <link href="../../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../../css/bootstrap-theme.css" rel="stylesheet" />
@@ -14,8 +15,12 @@
     <script src="../../js/jquery-3.2.1.min.js"></script>
     <script src="../../js/rtl-bootstrap.js"></script>
     <script src="../../js/main.js"></script>
+    <script src="../../js/animatescroll.noeasing.js"></script>
+    <script src="../../js/animatescroll.min.js"></script>
+
 </head>
 <body>
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="colapse-bars" onclick="toggleNav(this)">
             <div class="bar1"></div>
@@ -72,11 +77,205 @@
 
             </ul>
 
-             <a href="../about.html">درباره ما</a>
+            <a href="../about.html">درباره ما</a>
             <ul class="sub-nav"></ul>
 
         </div>
     </nav>
 
+    <div class="quick-access">
+        <div class="quick-access-icon">
+            <span class="glyphicon glyphicon-menu-right"></span>
+        </div>
+        <ul>
+            <li><a class="quick-access-link" data-toggle="#T1">سرفصل‌های دروس</a></li>
+            <li><a class="quick-access-link" data-toggle="#T2">کادر گروه</a></li>
+            <li><a class="quick-access-link" data-toggle="#T3">مدیر گروه</a></li>
+            <li><a class="quick-access-link" data-toggle="#T4">ارتباط با گروه</a></li>
+            <li><a class="quick-access-link" data-toggle="#T5">سوالات متداول</a></li>
+            <li><a class="quick-access-link" data-toggle="#T6">پیوندها</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <!---------------------------------------------Place holder----------------------------------------------------------->
+        <!-- تایتل اصلی صفحه -->
+        <h1 class="heading-title">
+            <i class="glyphicon glyphicon-certificate"></i>
+            گروه مهندسی برق
+        </h1><!-- تایتل اصلی صفحه -->
+        <!-- سرتیترهای صفحه - سرفصل‌ دروس -->
+        <h3 id="T1" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            سرفصل‌ دروس
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container" style="height: 300px">
+            <!--محتوی-->
+
+        </div><!--محتوی-->
+        <!-- سرتیترهای صفحه-کادر گروه -->
+        <h3 id="T2" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            کادر گروه
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <!--محتوی-->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card center-block">
+                    <div class="card-img">
+                        <img class="media-object center-block img-responsive" width="150" src="../../img/user.png" alt="">
+                    </div>
+                    <h3 class="bold text-center"> نام و نام‌خانوادگی</h3>
+                    <h4 class="bold text-center">سمت کارشناس</h4>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card center-block">
+                    <div class="card-img">
+                        <img class="media-object center-block img-responsive" width="150" src="../../img/user.png" alt="">
+                    </div>
+                    <h3 class="bold text-center"> نام و نام‌خانوادگی</h3>
+                    <h4 class="bold text-center">سمت کارشناس</h4>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div><!--محتوی-->
+        <!-- سرتیترهای صفحه - مدیر گروه -->
+        <h3 id="T3" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            مدیر گروه
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <!--محتوی-->
+            <div class="media">
+                <div class="media-left">
+                    <a href="">
+                        <img class="media-object img-circle" width="64" src="../../img/user.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body person-intro">
+                    <h3 class="media-heading bold">نام مدیر گروه</h3>
+                    <h4 class="media-heading bold">مدیر گروه (نام گروه)</h4>
+                    <div class="person-contact">
+                        <a class="tooltips" data-placement="left" title="ارتباط با مدیر گروه" data-toggle="modal" data-target="#contact-modal">
+                            <i class="glyphicon glyphicon-phone-alt"></i>
+                        </a>
+                    </div>
+                    <p class="text-justify">مرتبه :</p>
+                    <p class="text-justify">درباره مدیر گروه :</p>
+                </div>
+                <!----راه های ارتباطی مدیر گروه---->
+                <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">ارتباط با مدیر گروه</h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li><i class="glyphicon glyphicon-envelope"></i>&nbsp;<a href="mailto: abcd@efg.com">abcd@efg.com</a> </li>
+                                    <li><i class="glyphicon glyphicon-earphone"></i>&nbsp; 00984048400</li>
+                                    <li><i class="glyphicon glyphicon-globe"></i>&nbsp;<a href="http://www.etc.ir">etc.ir</a></li>
+                                    <li><i class="glyphicon glyphicon-map-marker"></i>&nbsp; طبقه اول - کنار اتاق 503</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!----راه های ارتباطی مدیر گروه---->
+            </div>
+        </div><!--محتوی-->
+        <!-- سرتیترهای صفحه- ارتباط با گروه -->
+        <h3 id="T4" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            ارتباط با گروه
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <!--محتوی-->
+            <ul>
+                <li><i class="glyphicon glyphicon-envelope"></i>&nbsp; <a href="mailto: abcd@efg.com">abcd@efg.com</a></li>
+                <li><i class="glyphicon glyphicon-earphone"></i>&nbsp; 00984048400</li>
+                <li><i class="glyphicon glyphicon-globe"></i>&nbsp; <a href="http://www.etc.ir">etc.ir</a></li>
+                <li><i class="glyphicon glyphicon-map-marker"></i>&nbsp; طبقه اول - کنار اتاق 503</li>
+            </ul>
+        </div><!--محتوی-->
+        <!-- سرتیترهای صفحه-سوالات متداول -->
+        <h3 id="T5" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            سوالات متداول
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <!--محتوی-->
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="glyphicon glyphicon-question-sign"></i>&nbsp; کلاس کجا برم ؟
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="glyphicon glyphicon-question-sign"></i>&nbsp; کتاب چی بخونم ؟
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="glyphicon glyphicon-question-sign"></i>&nbsp; کلاس کجا برم ؟
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--محتوی-->
+        <!-- سرتیترهای صفحه-پیوندها -->
+        <h3 id="T6" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            پیوندها
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <!--محتوی-->
+            <ul class="link-out">
+                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
+                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
+                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
+                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
+                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
+            </ul>
+        </div><!--محتوی-->
+        <!--------------------------------------------- / Place holder----------------------------------------------------------->
+    </div>
+
+    <div class="footer">
+        <div class="container"></div>
+    </div>
+
+    <div class="gotop">
+        <span class="glyphicon glyphicon-menu-up"></span>
+    </div>
 </body>
 </html>
