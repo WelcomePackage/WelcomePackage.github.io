@@ -190,6 +190,7 @@ a[data-toggle="modal"] {
 .heading-title {
     padding: 10px 10px;
     border-bottom: 1px solid #dfdfdf;
+    font-weight:bolder;
 }
 /*****************************************************************************/
 .card {
@@ -328,7 +329,7 @@ ul.link-out li i {
 
 .pdf-box a {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
     color: black;
 }
 

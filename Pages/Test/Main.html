@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#1565c0" />
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="../../css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="../../gorbeh/css/gorbeh-icons.css" rel="stylesheet" />
+    <link href="../../css/main.css" rel="stylesheet" />
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/rtl-bootstrap.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/animatescroll.noeasing.js"></script>
+    <script src="../../js/animatescroll.min.js"></script>
+
+    
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "Header.html", success: function (result) {
+                    $("#nav").html(result);
+                    console.log(result);
+                }
+            });
+            $.ajax({
+                url: "Footer.html", success: function (result) {
+                    $("#footer").html(result);
+                    console.log(result);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="nav"></div>
+
+    <div id="footer"></div>
+
+</body>
+</html>
