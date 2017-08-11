@@ -65,8 +65,10 @@ $(document).ready(function () {
                 'width': quickAccessWidth,
                 'padding': '20px'
             });
+            $('.quick-access ul').show();
 
         } else {
+            $('.quick-access ul').hide();
             $('.quick-access').animate({
                 'width': '0',
                 'padding': '0'
