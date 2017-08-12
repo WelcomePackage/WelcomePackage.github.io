@@ -3,4 +3,36 @@
 
 .welcome-h1 {
     font-size: 72px !important;
+    padding-top: 30px;
+}
+
+.navigate-to-pages {
+}
+
+    .navigate-to-pages div {
+        margin-bottom: 30px
+    }
+
+.navigate-icon {
+    width: 100px;
+    height: 100px;
+    background: url('../../img/dev-icon.png') no-repeat center;
+    background-size: cover;
+}
+
+.navigate-heading {
+    font-weight: bold;
+}
+
+.navigate-to-pages a {
+    color: black;
+}
+
+    .navigate-to-pages a:hover {
+        color: #3c3c3c;
+        text-decoration: none;
+    }
+/**************************************************************************************/
+.list-group {
+    border-radius: 0px !important;
 }
