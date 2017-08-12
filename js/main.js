@@ -97,10 +97,7 @@ $(document).ready(function () {
     $('.tooltips').mouseenter(function () {
             $('.tooltips').tooltip();
         });
-    $('.gotop').click(function () {
-        $('html,body').animatescroll();
 
-    });
     /*****EVENTS********/
 
 });

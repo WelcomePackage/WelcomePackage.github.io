@@ -82,6 +82,16 @@ ul li {
 }
 
 /*****************************************************************************/
+.btn-home{
+    display: block;
+    padding-top: 12px;
+    margin-right: 20px;
+}
+.btn-home a {
+    color: white;
+    font-size: 25px;
+}
+/*****************************************************************************/
 .colapse-bars {
     display: inline-block;
     cursor: pointer;
