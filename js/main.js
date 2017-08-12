@@ -18,23 +18,12 @@ function toggleNav(x) {
 
 /************************************************************************/
 $(document).ready(function () {
-    $.ajax({
-        url: "../../Pages/Template/Header.html",
-        success: function (result) {
-            document.getElementById('g-nav').innerHTML = result;
-        }
-    });
-    $.ajax({
-        url: "../../Pages/Template/Footer.html",
-        success: function (result) {
-            document.getElementById('g-footer').innerHTML = result;
-        }
-    });
+    /*****VARIABLES********/
+    var quickAccessWidth;
+    var quickAccessOpened = false;
+    /*****VARIABLES********/
 
-    $('.gotop').click(function () {
-        $('html,body').animatescroll();
-
-    });
+    /*****EVENTS********/
     $(window).scroll(function () {
         var offset = $(window).scrollTop();
         if (offset > 250) {
@@ -44,21 +33,9 @@ $(document).ready(function () {
         }
     });
     $("#mySidenav a").click(function () {
-        debugger
         $("#mySidenav a ul").removeClass("active-sub-nav");
         this.classList.toggle("active-sub-nav");
     });
-    //$(function() {
-    //    $('.tooltips').tooltip();
-    //});
-    $('.tooltips')
-        .mouseenter(function () {
-            $('.tooltips').tooltip();
-        });
-
-    var quickAccessWidth;
-    var quickAccessOpened = false;
-
     $('.quick-access-icon').click(function () {
         var windowWidth = $(window).width();
         if (windowWidth < 768) {
@@ -90,7 +67,6 @@ $(document).ready(function () {
         $(this).toggleClass('actvie-quick-access');
         quickAccessOpened = !quickAccessOpened;
     });
-
     $('.quick-access-link').click(function () {
         if (!quickAccessOpened) {
             $('.quick-access').animate({
@@ -114,6 +90,15 @@ $(document).ready(function () {
                 scrollSpeed: 2000
             });
     });
+    $('.tooltips').mouseenter(function () {
+            $('.tooltips').tooltip();
+        });
+    $('.gotop').click(function () {
+        $('html,body').animatescroll();
+
+    });
+    /*****EVENTS********/
+
 });
 
 /**********************************************************************************/
