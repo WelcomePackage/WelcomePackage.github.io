@@ -11,7 +11,7 @@ $.ajax({
     }
 });
 $.ajax({
-    url: "../Template/Groups-QuickAccess.html",
+    url: "../Template/GroupsQuickAccess.html",
     success: function (result) {
         document.getElementById('g-gr-q-access').innerHTML = result;
     }

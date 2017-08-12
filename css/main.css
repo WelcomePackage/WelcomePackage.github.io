@@ -12,6 +12,10 @@ ul li {
     list-style: none;
 }
 
+.container {
+    min-height: 300px;
+    height: auto;
+}
 /*****************************************************************************/
 @media only screen and (max-width: 768px) {
 
@@ -190,7 +194,7 @@ a[data-toggle="modal"] {
 .heading-title {
     padding: 10px 10px;
     border-bottom: 1px solid #dfdfdf;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 /*****************************************************************************/
 .card {
@@ -255,7 +259,7 @@ a[data-toggle="modal"] {
         border-radius: 50%;
         position: absolute;
         right: -22px;
-        top:0px;
+        top: 0px;
         /*bottom: calc( 50% - 22px);*/
         background: #1f8bcf;
         padding-left: 10px;
@@ -266,7 +270,8 @@ a[data-toggle="modal"] {
     }
 
     .quick-access ul li ul li {
-        padding: 0px 5px; !important;
+        padding: 0px 5px;
+        !important;
     }
 
         .quick-access ul li ul li a.quick-access-link {

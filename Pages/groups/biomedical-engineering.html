@@ -9,7 +9,7 @@
     <link href="../../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../../css/bootstrap-theme.css" rel="stylesheet" />
     <link href="../../css/bootstrap-rtl.min.css" rel="stylesheet" />
-    <link href="../../gorbeh/css/gorbeh-icons.min.css" rel="stylesheet" />
+    <link href="../../gorbeh/css/gorbeh-icons.css" rel="stylesheet" />
     <link href="../../css/main.css" rel="stylesheet" />
 
     <script src="../../js/jquery-3.2.1.min.js"></script>
@@ -20,75 +20,24 @@
 
 </head>
 <body>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="colapse-bars" onclick="toggleNav(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="#">دانشکده فنی مهندسی</a>
-            <ul class="sub-nav">
-                <li><a href="../faculty-of-engineering/cadre-intro.html">معرفی کادر کنونی دانشکده</a></li>
-                <li><a href="../faculty-of-engineering/organizations-and-positions.html">ساختار سازمانی و سمت‌ها</a></li>
-                <li><a href="../faculty-of-engineering/important-procedures.html">روال‌های مهم اداری</a></li>
-                <li><a href="../faculty-of-engineering/map.html">نقشه‌ی دانشکده</a></li>
-                <li><a href="../faculty-of-engineering/facilities.html">امکانات دانشکده</a></li>
-                <li><a href="../faculty-of-engineering/honors.html">افتخارات دانشکده</a></li>
-            </ul>
-            <a href="#">دانشکده معماری و شهرسازی</a>
-            <ul class="sub-nav">
-                <li><a href="../faculty-of-architecture/cadre-intro.html">معرفی کادر کنونی دانشکده</a></li>
-                <li><a href="../faculty-of-architecture/organizations-and-positions.html">ساختار سازمانی و سمت‌ها</a></li>
-                <li><a href="../faculty-of-architecture/important-procedures.html">روال‌های مهم اداری</a></li>
-                <li><a href="../faculty-of-architecture/map.html">نقشه‌ی دانشکده</a></li>
-                <li><a href="../faculty-of-architecture/facilities.html">امکانات دانشکده</a></li>
-                <li><a href="../faculty-of-architecture/honors.html">افتخارات دانشکده</a></li>
-            </ul>
-            <a href="#">تشکل‌های دانشجویی</a>
-            <ul class="sub-nav">
-                <li><a href="../associations/">فعالیت‌های اجتماعی انجمن‌ها و کانون‌ها</a></li>
-                <li><a href="../associations/civil.html">انجمن علمی عمران</a></li>
-                <li><a href="../associations/computer.html">انجمن علمی کامپیوتر</a></li>
-                <li><a href="../associations/electrical.html">انجمن علمی برق</a></li>
-                <li><a href="../associations/biomedical.html">انجمن علمی مهندسی پزشکی</a></li>
-                <li><a href="../associations/taali.html">کانون تعالی</a></li>
-                <li><a href="../associations/hayan.html">کانون حیّان</a></li>
-                <li><a href="../associations/chamran.html">بسیج دانشجویی شهید چمران</a></li>
-                <li><a href="../associations/IEEE.html">شاخه دانشجویی IEEE</a></li>
-            </ul>
-
-            <a href="#">گروه‌های آموزشی</a>
-            <ul class="sub-nav">
-                <li><a href="../groups/electrical-engineering.html">مهندسی برق</a></li>
-                <li><a href="../groups/computer-engineering-and-IT.html">مهندسی کامپیوتر و فناوری اطلاعات</a></li>
-                <li><a href="../groups/mechanical-robotic-aerospace-engineering.html">مهندسی مکانیک،روباتیک و هوافضا</a></li>
-                <li><a href="../groups/biomedical-engineering.html">مهندسی پزشکی</a></li>
-                <li><a href="../groups/biomedical-engineering.html">مهندسی هسته‌ای</a></li>
-                <li><a href="../groups/chemical-engineering-and-polymer.html">مهندسی شیمی و پلیمر</a></li>
-                <li><a href="../groups/metallurgical-engineering.html">مهندسی نفت،مواد و متالوژی</a></li>
-                <li><a href="../groups/environmental-engineering.html">مهندسی محیط زیست</a></li>
-                <li><a href="../groups/food-industry-engineering.html">مهندسی صنایع غذایی</a></li>
-                <li><a href="../groups/civil-engineering.html">مهندسی عمران</a></li>
-                <li><a href="../groups/architecture.html">معماری</a></li>
-                <li><a href="../groups/urban.html">شهرسازی</a></li>
-                <li><a href="../groups/restoration.html">مرمت</a></li>
-
-            </ul>
-
-            <a href="../about.html">درباره ما</a>
-            <ul class="sub-nav"></ul>
-
-        </div>
-    </nav>
+    <div id="g-nav"></div>
 
     <div class="quick-access">
         <div class="quick-access-icon">
             <span class="glyphicon glyphicon-menu-right"></span>
         </div>
         <ul>
-            <li><a class="quick-access-link" data-toggle="#T1">سرفصل‌های دروس</a></li>
+            <li>
+                <a class="quick-access-link" data-toggle="#T1">
+                    رشته‌های زیر مجموعه گروه
+                </a>
+                <ul>
+                    <li><a class="quick-access-link" data-toggle="#TT1">...</a></li>
+                    <li><a class="quick-access-link" data-toggle="#TT2"></a></li>
+                    <li><a class="quick-access-link" data-toggle="#TT3"></a></li>
+                    <li><a class="quick-access-link" data-toggle="#TT4">...</a></li>
+                </ul>
+            </li>
             <li><a class="quick-access-link" data-toggle="#T2">کادر گروه</a></li>
             <li><a class="quick-access-link" data-toggle="#T3">مدیر گروه</a></li>
             <li><a class="quick-access-link" data-toggle="#T4">ارتباط با گروه</a></li>
@@ -97,185 +46,12 @@
         </ul>
     </div>
 
-    <div class="container">
-        <!---------------------------------------------Place holder----------------------------------------------------------->
-        <!-- تایتل اصلی صفحه -->
-        <h1 class="heading-title">
-            <i class="glyphicon glyphicon-certificate"></i>
-            گروه مهندسی پزشکی
-        </h1><!-- تایتل اصلی صفحه -->
-        <!-- سرتیترهای صفحه - رشته‌های زیر مجموعه گروه -->
-        <h3 id="T1" class="heading-title">
-            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
-            رشته‌های زیر مجموعه گروه
-        </h3> <!-- سرتیترهای صفحه -->
-        <div class="container" style="height: 300px">
-            <!--محتوی-->
 
-        </div><!--محتوی-->
-        <!-- سرتیترهای صفحه-کادر گروه -->
-        <h3 id="T2" class="heading-title">
-            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
-            کادر گروه
-        </h3> <!-- سرتیترهای صفحه -->
-        <div class="container">
-            <!--محتوی-->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card center-block">
-                    <div class="card-img">
-                        <img class="media-object center-block img-responsive" width="150" src="../../img/user.png" alt="">
-                    </div>
-                    <h3 class="bold text-center"> نام و نام‌خانوادگی</h3>
-                    <h4 class="bold text-center">سمت کارشناس</h4>
-                </div>
-            </div>
+    <div class="container"></div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card center-block">
-                    <div class="card-img">
-                        <img class="media-object center-block img-responsive" width="150" src="../../img/user.png" alt="">
-                    </div>
-                    <h3 class="bold text-center"> نام و نام‌خانوادگی</h3>
-                    <h4 class="bold text-center">سمت کارشناس</h4>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div><!--محتوی-->
-        <!-- سرتیترهای صفحه - مدیر گروه -->
-        <h3 id="T3" class="heading-title">
-            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
-            مدیر گروه
-        </h3> <!-- سرتیترهای صفحه -->
-        <div class="container">
-            <!--محتوی-->
-            <div class="media">
-                <div class="media-left">
-                    <a href="">
-                        <img class="media-object img-circle" width="64" src="../../img/user.png" alt="">
-                    </a>
-                </div>
-                <div class="media-body person-intro">
-                    <h3 class="media-heading bold">نام مدیر گروه</h3>
-                    <h4 class="media-heading bold">مدیر گروه (نام گروه)</h4>
-                    <div class="person-contact">
-                        <a class="tooltips" data-placement="left" title="ارتباط با مدیر گروه" data-toggle="modal" data-target="#contact-modal">
-                            <i class="glyphicon glyphicon-phone-alt"></i>
-                        </a>
-                    </div>
-                    <p class="text-justify">مرتبه :</p>
-                    <p class="text-justify">درباره مدیر گروه :</p>
-                </div>
-                <!----راه های ارتباطی مدیر گروه---->
-                <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">ارتباط با مدیر گروه</h4>
-                            </div>
-                            <div class="modal-body">
-                                <ul>
-                                    <li><i class="glyphicon glyphicon-envelope"></i>&nbsp;<a href="mailto: abcd@efg.com">abcd@efg.com</a> </li>
-                                    <li><i class="glyphicon glyphicon-earphone"></i>&nbsp; 00984048400</li>
-                                    <li><i class="glyphicon glyphicon-globe"></i>&nbsp;<a href="http://www.etc.ir">etc.ir</a></li>
-                                    <li><i class="glyphicon glyphicon-map-marker"></i>&nbsp; طبقه اول - کنار اتاق 503</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div><!----راه های ارتباطی مدیر گروه---->
-            </div>
-        </div><!--محتوی-->
-        <!-- سرتیترهای صفحه- ارتباط با گروه -->
-        <h3 id="T4" class="heading-title">
-            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
-            ارتباط با گروه
-        </h3> <!-- سرتیترهای صفحه -->
-        <div class="container">
-            <!--محتوی-->
-            <ul>
-                <li><i class="glyphicon glyphicon-envelope"></i>&nbsp; <a href="mailto: abcd@efg.com">abcd@efg.com</a></li>
-                <li><i class="glyphicon glyphicon-earphone"></i>&nbsp; 00984048400</li>
-                <li><i class="glyphicon glyphicon-globe"></i>&nbsp; <a href="http://www.etc.ir">etc.ir</a></li>
-                <li><i class="glyphicon glyphicon-map-marker"></i>&nbsp; طبقه اول - کنار اتاق 503</li>
-            </ul>
-        </div><!--محتوی-->
-        <!-- سرتیترهای صفحه-سوالات متداول -->
-        <h3 id="T5" class="heading-title">
-            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
-            سوالات متداول
-        </h3> <!-- سرتیترهای صفحه -->
-        <div class="container">
-            <!--محتوی-->
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                        <h4 class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <i class="glyphicon glyphicon-question-sign"></i>&nbsp; کلاس کجا برم ؟
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="panel-body">
-                            مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <i class="glyphicon glyphicon-question-sign"></i>&nbsp; کتاب چی بخونم ؟
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                        <div class="panel-body">
-                            مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <i class="glyphicon glyphicon-question-sign"></i>&nbsp; کلاس کجا برم ؟
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="panel-body">
-                            مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف مدرسان شریف
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!--محتوی-->
-        <!-- سرتیترهای صفحه-پیوندها -->
-        <h3 id="T6" class="heading-title">
-            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
-            پیوندها
-        </h3> <!-- سرتیترهای صفحه -->
-        <div class="container">
-            <!--محتوی-->
-            <ul class="link-out">
-                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
-                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
-                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
-                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
-                <li><i class="glyphicon glyphicon-link"></i><a href="#">لینک به بیرون</a></li>
-            </ul>
-        </div><!--محتوی-->
-        <!--------------------------------------------- / Place holder----------------------------------------------------------->
-    </div>
 
-    <div class="footer">
-        <div class="container"></div>
-    </div>
+    <div id="g-footer"></div>
 
-    <div class="gotop">
-        <span class="glyphicon glyphicon-menu-up"></span>
-    </div>
+    <script src="../../js/AjaxLoader.js"></script>
 </body>
 </html>
