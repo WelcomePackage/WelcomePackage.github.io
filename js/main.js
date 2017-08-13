@@ -27,6 +27,7 @@ $(document).ready(function () {
     var quickAccessOpened = false;
     /*****VARIABLES********/
 
+
     /*****EVENTS********/
     $(window).scroll(function () {
         var offset = $(window).scrollTop();
