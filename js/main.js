@@ -102,6 +102,7 @@ $(document).ready(function () {
     $('.tooltips').mouseenter(function () {
         $('.tooltips').tooltip();
     });
+
     //$('.gotop').click(function() {
     //    gotop();
     //});

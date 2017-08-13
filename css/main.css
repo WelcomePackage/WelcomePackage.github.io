@@ -332,7 +332,6 @@ ul.link-out li i {
         border-top: none;
         border-bottom: none;
     }
-/*****************************************************************************************/
 .pdf-box i {
     padding-left: 4px;
     font-size: 29px;
@@ -348,3 +347,19 @@ ul.link-out li i {
     .pdf-box a :hover .pdf-box a:focus {
         text-decoration: none;
     }
+
+/*****************************************************************************************/
+
+.prosedures .panel-default>.panel-heading{
+    background: transparent;
+}.prosedures .panel-default {
+    border-top-color: transparent; 
+    border-left-color: transparent; 
+    border-right-color: transparent; 
+ }
+  .prosedures .panel-heading a:hover {text-decoration: none !important}
+   .prosedures .panel-heading a:focus{text-decoration: none !important}
+ .prosedures .panel-heading a span {
+     font-weight: bold;
+     
+ }
