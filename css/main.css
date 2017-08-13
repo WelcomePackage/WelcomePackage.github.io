@@ -147,6 +147,7 @@ ul li {
         color: #3275ff;
         display: block;
         transition: 0.3s;
+        cursor: pointer
     }
 
         /* When you mouse over the navigation links, change their color */

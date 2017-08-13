@@ -15,4 +15,6 @@ $(document).ready(function() {
     $('.gotop').click(function() {
         $('body').animatescroll();
     });
+    $('.center-heading h2').css('right', $('.center-heading').width() / 2 - $('.center-heading h2').width()/2);
 });
+

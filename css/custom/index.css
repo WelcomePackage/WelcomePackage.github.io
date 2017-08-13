@@ -3,19 +3,37 @@
 
 .welcome-h1 {
     font-size: 72px !important;
-    padding-top: 30px;
+    padding: 30px;
 }
 
 .navigate-to-pages {
 }
 
     .navigate-to-pages div {
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
 
 .navigate-icon {
     width: 100px;
     height: 100px;
+}
+
+#navigate-icon-1 {
+    background: url('../../img/book.png') no-repeat center;
+    background-size: cover;
+}
+
+#navigate-icon-2 {
+    background: url('../../img/grd-hat.png') no-repeat center;
+    background-size: cover;
+}
+
+#navigate-icon-3 {
+    background: url('../../img/lab.png') no-repeat center;
+    background-size: cover;
+}
+
+#navigate-icon-4 {
     background: url('../../img/dev-icon.png') no-repeat center;
     background-size: cover;
 }
@@ -35,4 +53,40 @@
 /**************************************************************************************/
 .list-group {
     border-radius: 0px !important;
+}
+
+/**************************************************************************************/
+
+.nav-tabs {
+    background: #1565c0;
+    border-radius: 0;
+}.nav-tabs a {
+    color: white;
+ }
+ .nav-tabs>li>a {
+     border-width:0 !important 
+ }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{ border-top: none;border-left: none;border-right: none;border-bottom: none;}
+.nav>li>a:focus, .nav>li>a:hover{ background: #478ddc;border-left: none;border-right: none; border-top: none;border-radius: 0px;}
+.nav-tabs .active a{
+    border-width: 0px;
+    background: #0851a4 !important;
+    border-radius: 0px;
+    color: white !important;
+}
+/**************************************************************************************/
+.center-heading {
+    border-top: 2px solid #ff9000;
+    position: relative;
+    margin-bottom: 40px
+}
+.center-heading  i {
+    font-size: 10px;
+    color: #ff9000;
+}
+.center-heading h2 {
+    background: white;
+    padding: 0 20px;
+    position: absolute;
+    top: -40px;
 }
