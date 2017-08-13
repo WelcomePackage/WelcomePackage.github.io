@@ -54,12 +54,17 @@ $(document).ready(function () {
         else if (windowWidth > 1200) {
             quickAccessWidth = '15%';
         }
+
         if (!quickAccessOpened) {
+            $('.quick-access ul').hide();
             $('.quick-access').animate({
                 'width': quickAccessWidth,
                 'padding': '20px'
-            });
-            $('.quick-access ul').show();
+            },
+                function () {
+
+                    $('.quick-access ul').fadeIn();
+                });
 
         } else {
             $('.quick-access ul').hide();
@@ -95,8 +100,8 @@ $(document).ready(function () {
             });
     });
     $('.tooltips').mouseenter(function () {
-            $('.tooltips').tooltip();
-        });
+        $('.tooltips').tooltip();
+    });
 
     /*****EVENTS********/
 
