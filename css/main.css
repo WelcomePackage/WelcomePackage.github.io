@@ -363,3 +363,25 @@ ul.link-out li i {
      font-weight: bold;
      
  }
+/*****************************************************************************************/
+.cadre-card {
+    height: auto;
+    padding: 5px;
+    background: #4e95f8;
+    margin-bottom: 20px;
+}
+
+.cadre-card img{ padding-top: 20px;padding-left: 10px;}
+
+.cadre-card .person-info h3{
+    margin-top: 3px;
+    
+}.cadre-card .person-info a {
+     color: #dfefff;
+ }
+  .refer-times {
+      padding-right: 20px;
+  }
+ .refer-times li i{
+     color:#919191
+ }
