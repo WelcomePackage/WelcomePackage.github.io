@@ -16,5 +16,12 @@ $(document).ready(function() {
         $('body').animatescroll();
     });
     $('.center-heading h2').css('right', $('.center-heading').width() / 2 - $('.center-heading h2').width()/2);
+    $('.banner').css('height', $(window).height()+'px');
+    $(window).resize(function() {
+        $('.center-heading h2').css('right', $('.center-heading').width() / 2 - $('.center-heading h2').width() / 2);
+    });
+
+
 });
+
 

@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
         videohidecontrols:false,
         donotresize:false,
         enabletouchswipe:true,
-        fullscreen:true,
+        fullscreen:false,
         autoplayvideo:false,
         addmargin:true,
         transitiononfirstslide:false,
@@ -27,7 +27,7 @@ jQuery(document).ready(function(){
         pauseonmouseover:false,
         playvideoonclickthumb:true,
         slideinterval:5000,
-        fullwidth:false,
+        fullwidth:true,
         randomplay:false,
         scalemode:"fill",
         loop:0,
@@ -194,16 +194,15 @@ jQuery(document).ready(function(){
         textpositionmarginbottom:24,
         lightboxshowtitle:true,
         slice: {
-            checked:true,
-            effectdirection:0,
-            effects:"up,down,updown",
-            slicecount:10,
             duration:1500,
-            easing:"easeOutCubic"
+            easing:"easeOutCubic",
+            checked:true,
+            effects:"up,down,updown",
+            slicecount:10
         },
         transition:"slice",
         scalemode:"fill",
-        isfullscreen:true,
+        isfullscreen:false,
         textformat: {
 
         }
