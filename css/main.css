@@ -78,15 +78,16 @@ ul li {
 }
 
 /*****************************************************************************/
-.btn-home{
+.btn-home {
     display: block;
     padding-top: 12px;
     margin-right: 20px;
 }
-.btn-home a {
-    color: white;
-    font-size: 25px;
-}
+
+    .btn-home a {
+        color: white;
+        font-size: 25px;
+    }
 /*****************************************************************************/
 .colapse-bars {
     display: inline-block;
@@ -143,7 +144,7 @@ ul li {
         color: #3275ff;
         display: block;
         transition: 0.3s;
-        cursor: pointer
+        cursor: pointer;
     }
 
         /* When you mouse over the navigation links, change their color */
@@ -233,14 +234,19 @@ a[data-toggle="modal"] {
     right: 20px;
     background: #306a9c;
     border-radius: 50%;
-    /*opacity:0;*/
+    opacity: 0.3;
     border: 2px solid #5c9dd5;
     z-index: 999;
     text-align: center;
     color: white;
     font-size: 18px;
     display: none;
+    transition: all 300ms ease;
 }
+
+    .gotop:hover {
+        opacity: 1;
+    }
 
     .gotop span {
         padding-top: 10px;
@@ -332,6 +338,7 @@ ul.link-out li i {
         border-top: none;
         border-bottom: none;
     }
+
 .pdf-box i {
     padding-left: 4px;
     font-size: 29px;
@@ -350,19 +357,27 @@ ul.link-out li i {
 
 /*****************************************************************************************/
 
-.prosedures .panel-default>.panel-heading{
+.prosedures .panel-default > .panel-heading {
     background: transparent;
-}.prosedures .panel-default {
-    border-top-color: transparent; 
-    border-left-color: transparent; 
-    border-right-color: transparent; 
- }
-  .prosedures .panel-heading a:hover {text-decoration: none !important}
-   .prosedures .panel-heading a:focus{text-decoration: none !important}
- .prosedures .panel-heading a span {
-     font-weight: bold;
-     
- }
+}
+
+.prosedures .panel-default {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.prosedures .panel-heading a:hover {
+    text-decoration: none !important;
+}
+
+.prosedures .panel-heading a:focus {
+    text-decoration: none !important;
+}
+
+.prosedures .panel-heading a span {
+    font-weight: bold;
+}
 /*****************************************************************************************/
 .cadre-card {
     height: auto;
@@ -371,11 +386,15 @@ ul.link-out li i {
     margin-bottom: 20px;
 }
 
-.cadre-card img{ padding-top: 20px;padding-left: 10px;}
+    .cadre-card img {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
 
-.cadre-card .person-info h3{
-    margin-top: 3px;
-    
-}.cadre-card .person-info a {
-     color: #dfefff;
- }
+    .cadre-card .person-info h3 {
+        margin-top: 3px;
+    }
+
+    .cadre-card .person-info a {
+        color: #dfefff;
+    }
