@@ -38,7 +38,6 @@ $(document).ready(function () {
         }
     });
     $("#mySidenav a").click(function () {
-        debugger
         $("#mySidenav a ul").removeClass("active-sub-nav");
         this.classList.toggle("active-sub-nav");
     });
