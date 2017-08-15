@@ -161,13 +161,13 @@ ul li {
         margin-left: 50px;
     }
 
-.sub-nav {
-    display: none;
+/*.sub-nav {
+
 }
 
 .active-sub-nav + ul {
     display: block;
-}
+}*/
 
 .sub-nav a {
     color: #ab9df8;
@@ -177,6 +177,12 @@ ul li {
         color: #654ceb;
     }
 
+    #mySidenav .panel-group * {
+        background: transparent !important;
+        border: none;
+    } #mySidenav .panel-group a.collapsed {
+          padding: 0px !important;
+      }
 /*****************************************************************************/
 a[data-toggle="modal"] {
     cursor: pointer;
