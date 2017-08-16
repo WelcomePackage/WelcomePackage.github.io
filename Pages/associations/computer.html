@@ -12,71 +12,131 @@
     <link href="../../css/main.css" rel="stylesheet" />
 
     <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/animatescroll.noeasing.js"></script>
+    <script src="../../js/animatescroll.min.js"></script>
     <script src="../../js/rtl-bootstrap.js"></script>
     <script src="../../js/main.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="colapse-bars" onclick="toggleNav(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+    <div id="g-nav"></div>
+
+    <div class="quick-access">
+        <div class="quick-access-icon">
+            <span class="glyphicon glyphicon-menu-right"></span>
         </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="#">دانشکده فنی مهندسی</a>
-            <ul class="sub-nav">
-                <li><a href="../faculty-of-engineering/cadre-intro.html">معرفی کادر کنونی دانشکده</a></li>
-                <li><a href="../faculty-of-engineering/organizations-and-positions.html">ساختار سازمانی و سمت‌ها</a></li>
-                <li><a href="../faculty-of-engineering/important-procedures.html">روال‌های مهم اداری</a></li>
-                <li><a href="../faculty-of-engineering/map.html">نقشه‌ی دانشکده</a></li>
-                <li><a href="../faculty-of-engineering/facilities.html">امکانات دانشکده</a></li>
-                <li><a href="../faculty-of-engineering/honors.html">افتخارات دانشکده</a></li>
-            </ul>
-            <a href="#">دانشکده معماری و شهرسازی</a>
-            <ul class="sub-nav">
-                <li><a href="../faculty-of-architecture/cadre-intro.html">معرفی کادر کنونی دانشکده</a></li>
-                <li><a href="../faculty-of-architecture/organizations-and-positions.html">ساختار سازمانی و سمت‌ها</a></li>
-                <li><a href="../faculty-of-architecture/important-procedures.html">روال‌های مهم اداری</a></li>
-                <li><a href="../faculty-of-architecture/map.html">نقشه‌ی دانشکده</a></li>
-                <li><a href="../faculty-of-architecture/facilities.html">امکانات دانشکده</a></li>
-                <li><a href="../faculty-of-architecture/honors.html">افتخارات دانشکده</a></li>
-            </ul>
-            <a href="#">تشکل‌های دانشجویی</a>
-            <ul class="sub-nav">
-                <li><a href="../associations/">فعالیت‌های اجتماعی انجمن‌ها و کانون‌ها</a></li>
-                <li><a href="../associations/civil.html">انجمن علمی عمران</a></li>
-                <li><a href="../associations/computer.html">انجمن علمی کامپیوتر</a></li>
-                <li><a href="../associations/electrical.html">انجمن علمی برق</a></li>
-                <li><a href="../associations/biomedical.html">انجمن علمی مهندسی پزشکی</a></li>
-                <li><a href="../associations/taali.html">کانون تعالی</a></li>
-                <li><a href="../associations/hayan.html">کانون حیّان</a></li>
-                <li><a href="../associations/chamran.html">بسیج دانشجویی شهید چمران</a></li>
-                <li><a href="../associations/IEEE.html">شاخه دانشجویی IEEE</a></li>
-            </ul>
+        <ul class="quick-access-list">
+            <li>
+                <a class="quick-access-link" data-toggle="#T1">
+                    معرفی
+                </a>
+                <ul>
+                    <li><a class="quick-access-link" data-toggle="#TT1"> تاسیس</a></li>
+                    <li><a class="quick-access-link" data-toggle="#TT2">چشم‌انداز</a></li>
+                    <li><a class="quick-access-link" data-toggle="#TT3">عملکرد</a></li>
+                    <li><a class="quick-access-link" data-toggle="#TT4">معرفی فعالیت‌ها</a></li>
+                </ul>
+            </li>
+            <li><a class="quick-access-link" data-toggle="#T2">مسئولین</a></li>
+            <li><a class="quick-access-link" data-toggle="#T3">نحوه عضویت</a></li>
+            <li><a class="quick-access-link" data-toggle="#T4">ارتباط با ما</a></li>
+        </ul>
+    </div>
 
-            <a href="#">گروه‌های آموزشی</a>
-            <ul class="sub-nav">
-                <li><a href="../groups/electrical-engineering.html">مهندسی برق</a></li>
-                <li><a href="../groups/computer-engineering-and-IT.html">مهندسی کامپیوتر و فناوری اطلاعات</a></li>
-                <li><a href="../groups/mechanical-robotic-aerospace-engineering.html">مهندسی مکانیک،روباتیک و هوافضا</a></li>
-                <li><a href="../groups/biomedical-engineering.html">مهندسی پزشکی</a></li>
-                <li><a href="../groups/biomedical-engineering.html">مهندسی هسته‌ای</a></li>
-                <li><a href="../groups/chemical-engineering-and-polymer.html">مهندسی شیمی و پلیمر</a></li>
-                <li><a href="../groups/metallurgical-engineering.html">مهندسی نفت،مواد و متالوژی</a></li>
-                <li><a href="../groups/environmental-engineering.html">مهندسی محیط زیست</a></li>
-                <li><a href="../groups/food-industry-engineering.html">مهندسی صنایع غذایی</a></li>
-                <li><a href="../groups/civil-engineering.html">مهندسی عمران</a></li>
-                <li><a href="../groups/architecture.html">معماری</a></li>
-                <li><a href="../groups/urban.html">شهرسازی</a></li>
-                <li><a href="../groups/restoration.html">مرمت</a></li>
-
-            </ul>
-
-             <a href="../about.html">درباره ما</a>
-            <ul class="sub-nav"></ul>
-
+    <div class="container">
+        <!-- تایتل اصلی صفحه -->
+        <span class="association-logo pull-right" style="background-image: url(../../img/cactbLogo.png)"></span>
+        <h1 class="heading-title ">
+            انجمن علمی کامپیوتر
+        </h1>
+        <!-- تایتل اصلی صفحه -->
+        <div class="clearfix"></div>
+        <!-- سرتیترهای صفحه - معرفی -->
+        <h3 id="T1" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            معرفی
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <h4 id="TT1" class="heading-title">
+                <i class="glyphicon glyphicon-circle-arrow-left"></i>&nbsp;
+                تاسیس
+            </h4>
+            <div class="container"></div>
+            <h4 id="TT2" class="heading-title">
+                <i class="glyphicon glyphicon-circle-arrow-left"></i>&nbsp;
+                چشم انداز
+            </h4>
+            <div class="container"></div>
+            <h4 id="TT3" class="heading-title">
+                <i class="glyphicon glyphicon-circle-arrow-left"></i>&nbsp;
+                عملکرد
+            </h4>
+            <div class="container"></div>
+            <h4 id="TT4" class="heading-title">
+                <i class="glyphicon glyphicon-circle-arrow-left"></i>&nbsp;
+                معرفی غعالیت‌ها
+            </h4>
+            <div class="container"></div>
         </div>
-    </nav>
+        <!-- سرتیترهای صفحه - مسئولین -->
+        <h3 id="T2" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            مسئولین
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card center-block">
+                    <div class="card-img">
+                        <img class="media-object center-block img-responsive" width="150" src="../../img/user.png" alt="">
+                    </div>
+                    <h3 class="bold text-center"> جواد ارجمندی</h3>
+                    <h4 class="bold text-center">دبیر </h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card center-block">
+                    <div class="card-img">
+                        <img class="media-object center-block img-responsive" width="150" src="../../img/user.png" alt="">
+                    </div>
+                    <h3 class="bold text-center"> سیّداشکان طراوتی</h3>
+                    <h4 class="bold text-center">خزانه‌دار </h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card center-block">
+                    <div class="card-img">
+                        <img class="media-object center-block img-responsive" width="150" src="../../img/user.png" alt="">
+                    </div>
+                    <h3 class="bold text-center"> بهزاد چیذری</h3>
+                    <h4 class="bold text-center">بازرس </h4>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>    <!-- سرتیترهای صفحه - نحوه‌ عضویت -->
+        <h3 id="T3" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            نحوه‌ عضویت
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container"></div>
+        <!-- سرتیترهای صفحه - ارتباط با ما‌  -->
+        <h3 id="T4" class="heading-title">
+            <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
+            ارتباط با ما
+        </h3> <!-- سرتیترهای صفحه -->
+        <div class="container">
+            <!--محتوی-->
+            <ul>
+                <li><i class="glyphicon glyphicon-envelope"></i>&nbsp; <a href="mailto:abcd@efg.com">رایانامه</a></li>
+                <li><i class="glyphicon glyphicon-globe"></i>&nbsp; <a href="http://www.cactb.ir">وب‌سایت </a></li>
+                <li><i class="gorbeh gorbeh_telegram"></i>&nbsp; <a href="http://www.t.me/cactb">کانال تلگرام</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="g-footer"></div>
+
+    <script src="../../js/AjaxLoader.js"></script>
 
 </body>
 </html>
