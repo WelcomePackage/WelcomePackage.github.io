@@ -30,6 +30,10 @@ $(document).ready(function () {
             isScrolled = false;
         }
     });
+    $(".banner img").animate({
+        'bottom': 450 + 'px',
+        //'right': 100+'px'
+    });
 });
 
 

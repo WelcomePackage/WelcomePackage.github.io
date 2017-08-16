@@ -116,11 +116,9 @@
     background: url('../../slider/images/1488888806-photo-2017-02-28-11-21-56 (1).jpg') no-repeat fixed;
     background-position-x:center ;
     background-size: cover;
+    position: relative;
+    /*opacity: 0.3*/
 }
-
-    .banner img {
-        width: 100%;
-    }
 
 /**************************************************************************************/
 
@@ -137,6 +135,8 @@
 
 .quote {
     margin-top: 30px;
+    font-size: 20px;
+    line-height: 2;
 }.quote i {
      font-size: 15px;
      color: #a9a9a9;
