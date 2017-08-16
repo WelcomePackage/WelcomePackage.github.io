@@ -183,6 +183,10 @@ ul li {
     } #mySidenav .panel-group a.collapsed {
           padding: 0px !important;
       }
+
+       #mySidenav .in {
+           padding: 0px;
+       }
 /*****************************************************************************/
 a[data-toggle="modal"] {
     cursor: pointer;
