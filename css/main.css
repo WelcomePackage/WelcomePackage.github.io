@@ -412,3 +412,8 @@ ul.link-out li i {
     .cadre-card .person-info a {
         color: #dfefff;
     }
+
+/*****************************************************************************************/
+
+.uni-groups .list-group .caret{ margin-top: 8px;}
+.uni-groups .dropdown-menu{ width: 100%;}
