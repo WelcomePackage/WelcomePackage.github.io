@@ -1,11 +1,11 @@
 ﻿$.ajax({
-    url: "../../Pages/Template/Header.html",
+    url: "../../pages/Template/g-nav.html",
     success: function (result) {
         document.getElementById('g-nav').innerHTML = result;
     }
 });
 $.ajax({
-    url: "../../Pages/Template/Footer.html",
+    url: "../../pages/Template/g-footer.html",
     success: function (result) {
         document.getElementById('g-footer').innerHTML = result;
     }
