@@ -7,10 +7,10 @@
     padding: 30px;
 }
 
-.navigate-to-pages {
+.navigate-to-Pages {
 }
 
-    .navigate-to-pages div {
+    .navigate-to-Pages div {
         margin-bottom: 30px;
     }
 
@@ -43,11 +43,11 @@
     font-weight: bold;
 }
 
-.navigate-to-pages a {
+.navigate-to-Pages a {
     color: black;
 }
 
-    .navigate-to-pages a:hover {
+    .navigate-to-Pages a:hover {
         color: #3c3c3c;
         text-decoration: none;
     }
