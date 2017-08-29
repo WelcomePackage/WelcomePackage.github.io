@@ -1,4 +1,4 @@
-﻿body{padding-top: 10px}
+﻿body{padding-top: 70px}
 a.btn{margin:20px}
 p.question {
     font-size: 20px;
@@ -32,8 +32,8 @@ a.icon-box:hover div {
     height: 100px;
     margin-top: 50px
 }
-
-
+.portal{display: block !important}
+.hidden-portal{display: none!important}
 .icon-box div#eng-fac {
     background-image: url('../../img/dev-icon.png');
 }
@@ -73,3 +73,4 @@ a.icon-box:hover div {
 .icon-box div#arch {
     background-image: url('../../img/icons/arch.png');
 }
+
