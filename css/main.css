@@ -1,4 +1,8 @@
-﻿* {
+﻿/**************************************************************/
+/*******************Design : behzad chizari********************/
+/*************Email : behzad75chizari@gmail.com****************/
+/**************************************************************/
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -191,6 +195,14 @@ ul li {
        }
        #mySidenav .in {
            padding: 0px;
+       }
+
+       .nav-divider-text {
+           text-align: right !important;
+           padding-right: 30px !important;
+           padding-bottom: 30px !important;
+           color: white !important;
+           border-bottom: 1px solid #434343 !important;
        }
 /*****************************************************************************/
 a[data-toggle="modal"] {

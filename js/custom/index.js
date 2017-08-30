@@ -34,6 +34,10 @@ $(document).ready(function () {
         'bottom': 450 + 'px',
         //'right': 100+'px'
     });
+    $('.icon-box').click(function () {
+        
+        $(this).hide();
+    });
 });
 
 

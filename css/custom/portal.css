@@ -1,8 +1,25 @@
-﻿body{padding-top: 70px}
+﻿/**************************************************************/
+/*******************Design : behzad chizari********************/
+/*************Email : behzad75chizari@gmail.com****************/
+/**************************************************************/
+body{padding-top: 70px}
 a.btn{margin:20px}
 p.question {
     font-size: 20px;
 }
+
+
+.footer-fixed-bottom {
+    background: #1565c0;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px
+}
+
+.portal{display: block !important}
+.hidden-portal{display: none!important}
+
+
 a.icon-box {
     color: #000;
     width: 200px;
@@ -26,14 +43,6 @@ a.icon-box:hover div {
     background-repeat: no-repeat;
     margin: 30px auto;
 }
-.footer-fixed-bottom {
-    background: #1565c0;
-    width: 100%;
-    height: 100px;
-    margin-top: 50px
-}
-.portal{display: block !important}
-.hidden-portal{display: none!important}
 .icon-box div#eng-fac {
     background-image: url('../../img/dev-icon.png');
 }
