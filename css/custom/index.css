@@ -176,7 +176,7 @@ body {
 
     .btn-box-close i {
         transition: transform 300ms ease;
-        cursor: pointer
+        cursor: pointer;
     }
 
     .btn-box-close:hover i {
@@ -278,5 +278,9 @@ a.icon-box {
     border: 1px solid #ebebeb;
     border-top: none;
     padding: 15px;
-    margin-top:1px
+    margin-top: 1px;
+}
+
+.faq-tab .tab-pane ol {
+    padding-right: 15px;
 }
