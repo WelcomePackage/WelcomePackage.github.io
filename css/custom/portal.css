@@ -75,10 +75,10 @@ a.icon-box {
 }
 
 .icon-box div#eng-fac {
-    background-image: url('../../img/dev-icon.png');
+    background-image: url('../../img/icons/dev-icon.png');
 }
 .icon-box div#arch-fac {
-    background-image: url('../../img/arch-fac.png');
+    background-image: url('../../img/icons/arch-fac.png');
 }
 .icon-box div#comp {
     background-image: url('../../img/icons/cmp.png');

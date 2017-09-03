@@ -14,34 +14,13 @@ body {
 .navigate-to-Pages {
 }
 
-    .navigate-to-Pages div {
-        margin-bottom: 30px;
-    }
 
 .navigate-icon {
     width: 100px;
     height: 100px;
 }
 
-#navigate-icon-1 {
-    background: url('../../img/book.png') no-repeat center;
-    background-size: cover;
-}
 
-#navigate-icon-2 {
-    background: url('../../img/grd-hat.png') no-repeat center;
-    background-size: cover;
-}
-
-#navigate-icon-3 {
-    background: url('../../img/lab.png') no-repeat center;
-    background-size: cover;
-}
-
-#navigate-icon-4 {
-    background: url('../../img/dev-icon.png') no-repeat center;
-    background-size: cover;
-}
 
 .navigate-heading {
     font-weight: bold;
@@ -213,11 +192,11 @@ a.icon-box {
 }
 
     .icon-box div#eng-fac {
-        background-image: url('../../img/dev-icon.png');
+        background-image: url('../../img/icons/dev-icon.png');
     }
 
     .icon-box div#arch-fac {
-        background-image: url('../../img/arch-fac.png');
+        background-image: url('../../img/icons/arch-fac.png');
     }
 
     .icon-box div#comp {
