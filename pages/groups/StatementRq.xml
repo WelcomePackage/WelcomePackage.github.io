@@ -1,0 +1,56 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsc="http://wsc.cm.dpi.ir/">
+  <soapenv:Header />
+  <soapenv:Body>
+    <wsc:statement>
+      <statementRequestMessage>
+        <signonRequest>
+          <requestUUID></requestUUID>
+          <transactionLocalDateTime>2017-09-03T12:07:10.7391422+04:30</transactionLocalDateTime>
+          <transactionLocalDateTimeSpecified>true</transactionLocalDateTimeSpecified>
+          <sessionKey />
+          <signonToken>
+            <username>una_client</username>
+            <credential></credential>
+            <generateSessionKey p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+          </signonToken>
+          <channelCode>UNA</channelCode>
+          <terminalType />
+        </signonRequest>
+        <requestMessageHeader></requestMessageHeader>
+        <dpiStatementRqService>
+          <requestUUID></requestUUID>
+          <transactionLocalDateTime>2017-09-03T12:07:10.7391422+04:30</transactionLocalDateTime>
+          <transactionLocalDateTimeSpecified>true</transactionLocalDateTimeSpecified>
+          <channelProxyRqCommonHeader>
+            <serviceCode>MB01</serviceCode>
+            <controlCode>12031001</controlCode>
+            <branchCode></branchCode>
+            <workStationCode>EM</workStationCode>
+            <terminalCode>BCG1</terminalCode>
+            <userId>EMD</userId>
+            <sequenceNumber>0009</sequenceNumber>
+            <date>960612</date>
+            <time>120710</time>
+            <statusFlag>O</statusFlag>
+            <sendingTransactionStatus>N</sendingTransactionStatus>
+            <accessLevel>03</accessLevel>
+            <authorizedOfficer>EMD</authorizedOfficer>
+            <transactionGroupNumber>009</transactionGroupNumber>
+          </channelProxyRqCommonHeader>
+          <statementRqData>
+            <accountNumber></accountNumber>
+            <fromDate>9606010</fromDate>
+            <fromTime>000000</fromTime>
+            <toDate>960612</toDate>
+            <toTime>000000</toTime>
+            <showAmountFlag>خ</showAmountFlag>
+            <language>ف</language>
+            <transactionCount>3</transactionCount>
+            <reserved1>0</reserved1>
+            <reserved2>0</reserved2>
+          </statementRqData>
+        </dpiStatementRqService>
+      </statementRequestMessage>
+    </wsc:statement>
+  </soapenv:Body>
+</soapenv:Envelope>
