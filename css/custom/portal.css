@@ -2,8 +2,14 @@
 /*******************Design : behzad chizari********************/
 /*************Email : behzad75chizari@gmail.com****************/
 /**************************************************************/
-body{padding-top: 70px}
-a.btn{margin:20px}
+body {
+    padding-top: 70px;
+}
+
+a.btn {
+    margin: 20px;
+}
+
 p.question {
     font-size: 20px;
 }
@@ -13,11 +19,16 @@ p.question {
     background: #1565c0;
     width: 100%;
     height: 100px;
-    margin-top: 50px
+    margin-top: 50px;
 }
 
-.portal{display: block !important}
-.hidden-portal{display: none!important}
+.portal {
+    display: block !important;
+}
+
+.hidden-portal {
+    display: none !important;
+}
 
 .icon-box-1 {
     overflow: hidden;
@@ -45,8 +56,6 @@ p.question {
         transform: rotate(360deg);
     }
 
-
-
 a.icon-box {
     color: #000;
     width: 200px;
@@ -64,6 +73,7 @@ a.icon-box {
             a.icon-box:hover div {
                 transform: scale(1.1);
             }
+
 .icon-box div {
     width: 80px;
     height: 80px;
@@ -73,44 +83,103 @@ a.icon-box {
     background-repeat: no-repeat;
     margin: 30px auto;
 }
+.general {
+    border-top: 2px dashed #cdcdcd;
+    
+}
+.general .icon-box div {
+    width: 60px !important;
+    height: 60px !important;
+}
 
 .icon-box div#eng-fac {
     background-image: url('../../img/icons/dev-icon.png');
 }
+
 .icon-box div#arch-fac {
     background-image: url('../../img/icons/arch-fac.png');
 }
+
 .icon-box div#comp {
     background-image: url('../../img/icons/cmp.png');
 }
+
 .icon-box div#elec {
     background-image: url('../../img/icons/elec.png');
 }
+
 .icon-box div#biom {
     background-image: url('../../img/icons/biom.png');
 }
+
 .icon-box div#nucl {
     background-image: url('../../img/icons/nucl.png');
 }
+
 .icon-box div#mech {
     background-image: url('../../img/icons/mech.png');
 }
+
 .icon-box div#civl {
     background-image: url('../../img/icons/civil.png');
 }
+
 .icon-box div#chem {
     background-image: url('../../img/icons/chem.png');
 }
+
 .icon-box div#envi {
     background-image: url('../../img/icons/envi.png');
 }
+
 .icon-box div#metl {
     background-image: url('../../img/icons/metalo.png');
 }
+
+.icon-box div#inds {
+    background-image: url('../../img/icons/inds.png');
+}
+
 .icon-box div#urbn {
     background-image: url('../../img/icons/urban.png');
 }
+
 .icon-box div#arch {
     background-image: url('../../img/icons/arch.png');
 }
 
+
+.icon-box div#hayan {
+    background-image: url('../../img/logos/hayan.png');
+}
+
+.icon-box div#taali {
+    background-image: url('../../img/logos/taali.png');
+}
+
+.icon-box div#chamran {
+    background-image: url('../../img/logos/chamran.png');
+}
+
+.icon-box div#cactb {
+    background-image: url('../../img/logos/cactbLogo.png');
+}
+
+.icon-box div#selcou {
+    background-image: url('../../img/icons/selcou.png');
+}
+
+.icon-box div#regis {
+    background-image: url('../../img/icons/regis.png');
+}
+
+.icon-box div#uni-site {
+    background-image: url('../../img/icons/favicon.png');
+}
+
+.icon-box div#faq {
+    background-image: url('../../img/icons/faq.png');
+}
+.icon-box div#more-info {
+    background-image: url('../../img/icons/faq.png');
+}
