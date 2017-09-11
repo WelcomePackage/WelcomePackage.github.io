@@ -12,6 +12,7 @@ $.ajax({
 });
 
 $(document).ready(function () {
+    $('#myModal').modal()
     $('.gotop').click(function () {
         $('body').animatescroll();
     });
