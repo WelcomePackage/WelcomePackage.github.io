@@ -104,12 +104,13 @@ body {
     background-position-x: center;
     background-size: cover;
     position: relative;
+    padding-top: 55px;
     /*opacity: 0.3*/
 }
 .banner img.logo {
     padding-top: 5%;
 }
-.banner h2,.banner h1,.banner h3 {
+.banner h2,.banner h5 {
     color: white;
     padding:0 10px;
 }
