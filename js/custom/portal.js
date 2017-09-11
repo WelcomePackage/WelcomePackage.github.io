@@ -2,12 +2,12 @@
 
 
 $(document).ready(function () {
-    //$.ajax({
-    //    url: "../../../Pages/Template/g-nav.html",
-    //    success: function (result) {
-    //        document.getElementById('g-nav').innerHTML = result;
-    //    }
-    //});
+    $.ajax({
+        url: "../../KB/Template/p-links.html",
+        success: function (result) {
+            document.getElementById('p-links').innerHTML = result;
+        }
+    });
     //$.ajax({
     //    url: "../../../Pages/Template/g-footer.html",
     //    success: function (result) {

@@ -3,7 +3,7 @@
 /*************Email : behzad75chizari@gmail.com****************/
 /**************************************************************/
 body {
-    padding-top: 70px;
+    padding-top: 0px !important;
 }
 
 a.btn {
