@@ -24,7 +24,10 @@ body {
     height: 100px;
 }
 
-
+.text-danger{
+    background:transparent;
+    color:red;
+}
 
 .navigate-heading {
     font-weight: bold;
