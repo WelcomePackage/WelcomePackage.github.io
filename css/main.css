@@ -19,6 +19,10 @@ ul li {
 .nav-tabs>li{ margin: 0px;}
 .nav-tabs>li>a{ margin-right: 0px;}
 i.glyphicon-certificate{ font-size: 30px;}
+.no-border{
+    border:none !important;
+
+}
 /*****************************************************************************/
 @media only screen and (max-width: 768px) {
 

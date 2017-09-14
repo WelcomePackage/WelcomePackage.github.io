@@ -120,6 +120,9 @@ a.icon-box {
 .icon-box div#mech {
     background-image: url('../../img/icons/mech.png');
 }
+.icon-box div#civil-m {
+    background-image: url('../../img/icons/civil-m.png');
+}
 
 .icon-box div#civl {
     background-image: url('../../img/icons/civil.png');
