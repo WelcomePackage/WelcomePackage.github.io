@@ -21,10 +21,10 @@ $(document).ready(function () {
 
             $('.icon-box-1').css('display', 'none');
             $('.icon-box-1').css('height', 'auto');
-            var htEng = $('.icon-box-1').css('height');
+            var htEng = $('.icon-box-1').height() + 100;
             $('.icon-box-1').css('height', 0);
             $('.icon-box-1').css('display', 'block');
-            $('.icon-box-1').animate({ 'height': htEng }, 1000);
+            $('.icon-box-1').animate({ 'height': htEng+'px' }, 1000);
         });
         $('.icon-box-1 a').click(function () {
             $('.icon-box-1').animate({ 'height': 0 + 'px' }, 1000);
@@ -33,10 +33,10 @@ $(document).ready(function () {
                     {
                         $('#eng-bx').css('display', 'none');
                         $('#eng-bx').css('height', 'auto');
-                        var htEng = $('#eng-bx').css('height');
+                        var htEng = $('#eng-bx').height() + 100;
                         $('#eng-bx').css('height', 0);
                         $('#eng-bx').css('display', 'block');
-                        $('#eng-bx').animate({ 'height': htEng }, 1000);
+                        $('#eng-bx').animate({ 'height': htEng + 'px' }, 1000);
                         break;
                     }
                 case 'arch-bt':
