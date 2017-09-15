@@ -14,8 +14,49 @@
     <link href="../../gorbeh/css/gorbeh-icons.min.css" rel="stylesheet" />
     <link href="../../css/main.css" rel="stylesheet" />
     <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/animatescroll.min.js"></script>
+    <script src="../../js/animatescroll.noeasing.js"></script>
     <script src="../../js/rtl-bootstrap.js"></script>
     <script src="../../js/main.js"></script>
+    <style>
+        
+a.icon-box {
+    color: #000;
+    width: 200px;
+}
+
+    a.icon-box, a.icon-box * {
+        transition: all 200ms;
+    }
+
+        a.icon-box:hover, a.icon-box:focus {
+            text-decoration: none;
+            color: #333;
+        }
+
+            a.icon-box:hover div {
+                transform: scale(1.1);
+            }
+
+.icon-box div {
+    width: 80px;
+    height: 80px;
+    /*background: #1565c0;*/
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+}
+
+    .icon-box div#map {
+        background-image: url('../../img/icons/map.png');
+    }
+
+    .icon-box div#cadr {
+        background-image: url('../../img/icons/cadre.png');
+    }
+
+    </style>
 </head>
 <body>
     <div id="g-nav"></div>
@@ -40,7 +81,7 @@
                 <i class="glyphicon glyphicon-hand-left"></i>&nbsp;
                 دستاوردهای علمی و پژوهشی دانشکده
             </h3>
-            <p class="text-justify" class="text-justify">
+            <p class="text-justify">
                 این دانشکده افتخار داشته است تا با استعانت از خداوند منان ، هدایت اساتید برجسته ، زمینه های تحقیق و پژوهش را برای دانشجویان پرتلاش خود فراهم آورد که بتوانند با حضور درمجامع ملی و بین المللی ، به رتبه های درخشانی دست یابند .برخی از افتخارات این دانشکده در سال های اخیر عبارتند از:
                 <ul>
                     <li style="list-style:circle !important">رتبه های علمی یک تا سوم در زمینه پژوهش بتن در سطح ملی و بین المللی</li>
@@ -69,13 +110,13 @@
             <h3 id="T1" class="heading-title"></h3>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <a class="icon-box  center-block" id="eng-bt" href="cadre-intro.html">
-                    <div class="" id="eng-fac"></div>
+                    <div class="" id="cadr"></div>
                     <h4 class="text-center">کادر دانشکده</h4>
                 </a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <a class="icon-box  center-block" id="arch-bt" href="map.html">
-                    <div class="" id="arch-fac"></div>
+                    <div class="" id="map"></div>
                     <h4 class="text-center">نقشه دانشکده</h4>
                 </a>
             </div>
@@ -87,14 +128,21 @@
                 <a href="#" class="list-group-item disabled">
                     گروه‌های آموزشی دانشکده
                 </a>
-                <a href="#" class="list-group-item">xxx</a>
-                <a href="#" class="list-group-item">xxx</a>
-                <a href="#" class="list-group-item">xxx</a>
-                <a href="#" class="list-group-item">xxx</a>
-                <a href="#" class="list-group-item">xxx</a>
-                <a href="#" class="list-group-item">xxx</a>
-                <a href="#" class="list-group-item">xxx</a>
-                <a href="#" class="list-group-item">xxx</a>
+                <a  class="list-group-item" href="../groups/architecture.html">مهندسی معماری</a>
+                <a  class="list-group-item" href="../groups/biomedical-engineering.html">مخندسی پزشکی</a>
+                <a  class="list-group-item" href="../groups/chemical-engineering-and-polymer.html">مخندسی شیمی و پلیمر</a>
+                <a  class="list-group-item" href="../groups/civil-engineering-m-phd.html">تحصیلات تکمیلی مهندسی عمران</a>
+                <a  class="list-group-item" href="../groups/civil-engineering.html">مهندسی عمران</a>
+                <a  class="list-group-item" href="../groups/computer-engineering.html">مهندسی کامپیوتر و IT</a>
+                <a  class="list-group-item" href="../groups/electrical-engineering.html">مهندسی برق</a>
+                <a  class="list-group-item" href="../groups/environmental-engineering.html">مهندسی محیط زیست و صنایع غذایی</a>
+                <a  class="list-group-item" href="../groups/industrial-engineering.html">مهندسی صنایع</a>
+                <a  class="list-group-item" href="../groups/mechanical-robotic-aerospace-engineering.html">مهندسی مکانیک، رباتیک و هوافضا</a>
+                <a  class="list-group-item" href="../groups/metallurgical-engineering.html">مهندسی نفت، مواد و معدن</a>
+                <a  class="list-group-item" href="../groups/nuclear-engineering.html">مهندسی هسته‌ای</a>
+                <a  class="list-group-item" href="../groups/restoration.html">مرمت</a>
+                <a  class="list-group-item" href="../groups/science.html">گروه علوم پایه</a>
+                <a  class="list-group-item" href="../groups/urban.html">شهرسازی</a>
             </div>
         </div>
     </div>
