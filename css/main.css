@@ -23,6 +23,12 @@ i.glyphicon-certificate{ font-size: 30px;}
     border:none !important;
 
 }
+.list-style-circle li{
+    list-style:circle
+}
+.list-style-disc li{
+    list-style:disc
+}
 /*****************************************************************************/
 @media only screen and (max-width: 768px) {
 
